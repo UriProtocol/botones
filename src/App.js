@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import './App.css'
+import GoogleMap from './mapsAPI'
 
 const Button = styled.button`
   /* Adapt the colors based on primary prop */
@@ -17,14 +18,17 @@ const Button = styled.button`
 
 function App() {
   return (
-    <div className='wrapper'>
+      <div className='wrapper'>
       <h1>Botones</h1>
+      <h2>Mi nombre es: <span>Ángel Uriel González Urrutia</span></h2>
       <div className='buttons-div'>
         <a href='https://www.utd.edu.mx'><Button utd>UTD</Button></a>
         <a href='https://www.github.com/UriProtocol'><Button gh>GitHub</Button></a>
-        <a href='https://www.chess.com/member/uriknight03'><Button fb>Red social</Button></a>
+        <a href='https://www.facebook.com/angeluriel.gonzalezurrutia'><Button fb>Red social</Button></a>
       </div>
+      <GoogleMap />
     </div>
+    
   );
 }
 
