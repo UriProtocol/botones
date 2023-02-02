@@ -33,3 +33,10 @@ button:hover{
   translate: -50% 0;
   left: 50%;
 }
+img{
+  height: 500px ;
+  width: 100%;
+}
+.carousel{
+  margin-block: 1rem 3rem;
+}

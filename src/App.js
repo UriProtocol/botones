@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import './App.css'
+import Example from './carrusel';
 import GoogleMap from './mapsAPI'
 
 const Button = styled.button`
@@ -26,6 +27,7 @@ function App() {
         <a href='https://www.github.com/UriProtocol'><Button gh>GitHub</Button></a>
         <a href='https://www.facebook.com/angeluriel.gonzalezurrutia'><Button fb>Red social</Button></a>
       </div>
+      <Example />
       <GoogleMap />
     </div>
     
